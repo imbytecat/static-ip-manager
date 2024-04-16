@@ -8,3 +8,9 @@
 #   with-sources: false
 
 -e file:.
+pyqt6==6.6.1
+    # via static-ip-manager-python
+pyqt6-qt6==6.6.3
+    # via pyqt6
+pyqt6-sip==13.6.0
+    # via pyqt6

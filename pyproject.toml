@@ -5,7 +5,9 @@ description = "Add your description here"
 authors = [
     { name = "imbytecat", email = "imbytecat@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "PyQt6>=6.6.1",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -22,3 +24,6 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/static_ip_manager_python"]
+
+[project.scripts]
+dev = 'static_ip_manager_python.manager:main'
