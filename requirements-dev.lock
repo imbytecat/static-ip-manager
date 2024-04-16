@@ -9,7 +9,7 @@
 
 -e file:.
 pyqt6==6.6.1
-    # via static-ip-manager-python
+    # via static-ip-manager
 pyqt6-qt6==6.6.3
     # via pyqt6
 pyqt6-sip==13.6.0

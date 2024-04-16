@@ -1,7 +1,7 @@
 [project]
-name = "static-ip-manager-python"
+name = "static-ip-manager"
 version = "0.1.0"
-description = "Add your description here"
+description = ""
 authors = [
     { name = "imbytecat", email = "imbytecat@gmail.com" }
 ]
@@ -23,7 +23,7 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/static_ip_manager_python"]
+packages = ["src/static_ip_manager"]
 
 [project.scripts]
-dev = 'static_ip_manager_python.manager:main'
+dev = 'static_ip_manager.manager:main'
